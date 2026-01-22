@@ -38,6 +38,11 @@ NOT: import işlemi bağlantıları göz önünde tutmak için her bir adımda y
   4. Gerçek veriyle test etme: modelin tahmin yapabilmesi için örnek veri, eğitim yapılan veri gibi sunulmalıdır, standardize edilmiş veriyle eğitim yapılmışse sunulan da böyle olmalı.
   5. Birden fazla modeli test etmek için yaptığımız şey model listesi üzerinde bir for döngüsü kurmaktan ibaret, temel mantık değişmiyor.
 
+# Ek1. Özellik seçimi
+
+  feature_selection notebook'da PCA, k-means clustering ve Importance ranking yöntemleri kullanılarak, özellik seçimi yapılmıştır. Tüm veri seti ve seçili üç ve seçili beş özellikli veriler ile yapılan eğitimlerin karşılaştırması gösterilmiştir.
+  
+
 # Sonsöz: 
 
   Bu temel bir yaklaşım olarak sunulsa da bazı yerlerde eksikler, yanlışlar olabilir. Bu yaklaşım her tür veriye uygun olmayabilir. Ancak bir yerden başlarsınız ve geliştirdikçe öğrenirsiniz. Bu paylaşım öğrenme sürecinin bir aşamasıdır ve geri dönüşler ilerleme için mutlak gereklidir.
